@@ -17,3 +17,10 @@ django-admin startproject Amra
 py manage.py startapp Admin
 py manage.py runserver
 
+py manage.py makemigrations
+py manage.py migrate
+
+
+admin:-
+username:ashok
+password:ashok1234
