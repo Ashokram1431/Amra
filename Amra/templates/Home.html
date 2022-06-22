@@ -1,6 +1,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,8 +11,12 @@
     <link rel="stylesheet" href="../static/css/style_home.css">
     {% load static %}
 </head>
+
 <body>
-    <center><h1>Amra Admin Panal</h1></center>
+    <center>
+        <h1>Amra Admin Panal</h1>
+    </center>
+    <h3>User:{{u}}</h3>
     <div class="">
         <a href="#">Home</a>&nbsp;
         <a href="#">Staff</a>&nbsp;
@@ -22,11 +27,12 @@
     <hr>
     <div class="container">
         <div class="container">
-            <div class="title"><h2>Product Sales</h2></div>
-            <form action="">
-                
-            </form>
+            <div class="title">
+                <h2>Product Sales</h2>
+            </div>
+            {{u}}
         </div>
     </div>
 </body>
+
 </html>
